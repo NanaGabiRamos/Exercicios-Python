@@ -37,7 +37,7 @@ while True:
         num1 = int(input("Digite a base: "))
         num2 = int(input("Digite o expoente: "))
         resultado = num1**num2
-        print(f"Potência de {num1} elevado a {num2} = {resultado}")
+        print(f"Potência de {num1} elevado a {num2} é = {resultado}")
     elif op == 6:
         print("PROGRAMA ENCERRADO")
         break
