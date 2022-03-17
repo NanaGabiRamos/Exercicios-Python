@@ -49,4 +49,3 @@ while True:
     else:
         print("PROGRAMA ENCERRADO")
         break
-print("Fim")
