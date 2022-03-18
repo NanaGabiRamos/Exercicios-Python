@@ -2,4 +2,4 @@
 quantSalario = float(input("Quanto você ganha por hora: "))
 quantHoras = int(input("Horas trabalhadas no mês: "))
 salario = quantSalario * quantHoras
-print(f"Salário  = {salario}")
+print(f"Seu salário  = {salario}")

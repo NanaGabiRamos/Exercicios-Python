@@ -3,4 +3,4 @@ soma = 0
 for i in range(4):
   nota = float(input(f"Digite a nota {i+1}: "))
   soma += nota
-print(f"Media = {soma/4}")
+print(f"A média = {soma/4}")
