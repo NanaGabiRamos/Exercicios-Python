@@ -1,4 +1,7 @@
 # Fazer um programa que imprima a tabuada do 0 até o 10
+# Obs: O script denominado como Funcoes presente em
+# github.com/NanaGabiRamos/Exercicios-Python/tree/main/Exercicios2
+# está sendo utilizado para fazer a importação presente na linha 5
 
 from Funcoes import funcoesCalculo
 from Funcoes import menu
