@@ -1,10 +1,10 @@
 from MeioDeTransporte import MeioDeTransporte
 
 class Aquatico(MeioDeTransporte):
-   def __init__(self, numVelas, tamCasco):
+   def __init__(self, numVelas, tamanhoCasco):
       super()
       self.__numVelas = numVelas
-      self.__tamCasco = tamCasco
+      self.__tamanhoCasco = tamanhoCasco
 
    #Geters e Seters
    #**************************#
@@ -15,11 +15,11 @@ class Aquatico(MeioDeTransporte):
       self.__numVelas = num
 
    def get_tamCasco(self):
-      return self.__tamCasco
+      return self.__tamanhoCasco
 
    def set_tamCasco(self, tam:int):
-      self.__tamCasco = tam
+      self.__tamanhoCasco = tam
 
    def informacoes(self):
       print(f'Número de Velas: {self.__numVelas}')
-      print(f'Tamanho do Casco: {self.__tamCasco} m')
+      print(f'Tamanho do Casco: {self.__tamanhoCasco} m')

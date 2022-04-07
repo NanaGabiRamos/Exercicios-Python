@@ -1,17 +1,17 @@
 from MeioDeTransporte import MeioDeTransporte
 
 class Aereo(MeioDeTransporte):
-   def __init__(self, numAsas):
+   def __init__(self, numAsa):
       super()
-      self.__numAsas = numAsas
+      self.__numAsa = numAsa
 
    #Geters e Seters
    #*******************************#
    def get_numAsas(self):
-      return self.__numAsas
+      return self.__numAsa
 
    def set_numAsas(self, num:int):
-      self.__numAsas = num
+      self.__numAsa = num
 
    def informacoes(self):
-      print(f'Número de Asas: {self.__numAsas}')
+      print(f'Número de Asas: {self.__numAsa}')

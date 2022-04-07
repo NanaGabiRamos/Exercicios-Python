@@ -9,6 +9,7 @@ class Terrestre(MeioDeTransporte):
       self.__placa = placa
       self.__cor = cor
 
+
    #Geters e Seters
    #**********************************#
    def get_numeroDeRodas(self):

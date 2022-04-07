@@ -1,4 +1,5 @@
 class MeioDeTransporte:
+   
    def ligar(self):
       print('Ligando...')
    

@@ -57,6 +57,7 @@ aviao.freiar()
 aviao.desligar()
 print('---Informações do veiculo---')
 aviao.informacoes()
+
 #Testando geters e seters#***********************#
 aviao.set_numAsas(5)
 print('---Informações do veiculo atualizadas---')
